@@ -75,3 +75,65 @@ h1 {
 #troca-senha-form button:hover {
     background-color: #45a049;
 }
+
+/* Estilos para telas menores */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    #troca-senha-section {
+        padding: 15px;
+    }
+
+    #troca-senha-form {
+        margin-bottom: 15px;
+    }
+
+    #instrucoes-senha p {
+        margin-bottom: 5px;
+    }
+
+    #mensagem-validacao {
+        margin-top: 15px;
+    }
+
+    #pagina-principal {
+        margin-top: 15px;
+    }
+
+    #troca-senha-form label {
+        margin-bottom: 5px;
+    }
+
+    #troca-senha-form input[type="email"],
+    #troca-senha-form input[type="password"] {
+        padding: 6px;
+        margin-bottom: 5px;
+    }
+
+    #troca-senha-form button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Estilos para telas ainda menores */
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    #troca-senha-form button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

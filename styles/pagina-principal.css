@@ -110,3 +110,77 @@ footer img {
     width: 50px;
     margin: 5px;
 }
+
+/* Estilos para telas menores */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        max-width: 80px;
+    }
+
+    header h1 {
+        margin: 5px 0;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
+    .galeria img {
+        width: calc(50% - 5px);
+        margin: 3px;
+    }
+
+    table,
+    th,
+    td {
+        padding: 6px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer img {
+        width: 40px;
+        margin: 3px;
+    }
+}
+
+/* Estilos para telas ainda menores */
+@media screen and (max-width: 400px) {
+    header img {
+        max-width: 60px;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    .galeria img {
+        width: calc(50% - 3px);
+        margin: 2px;
+    }
+
+    table,
+    th,
+    td {
+        padding: 4px;
+    }
+
+    footer img {
+        width: 30px;
+        margin: 2px;
+    }
+}
